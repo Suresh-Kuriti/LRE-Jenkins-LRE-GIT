@@ -1,0 +1,127 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: slot",
+                "infFile": "t134.inf",
+                "time": 1574614566461
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T01_Launch",
+                "rawStartTime": 1574613558233,
+                "rawEndTime": 1574613575395,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T02_Click_On_Sign_In",
+                "rawStartTime": 1574613575413,
+                "rawEndTime": 1574613581819,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T03_Login",
+                "rawStartTime": 1574613581832,
+                "rawEndTime": 1574613764650,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0010483264923095704
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T04_Browse_Aisles_Seafood",
+                "rawStartTime": 1574613764652,
+                "rawEndTime": 1574613781790,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T05_Seafood_Fish",
+                "rawStartTime": 1574613781793,
+                "rawEndTime": 1574613788684,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T06_Add_to_Cart",
+                "rawStartTime": 1574613788686,
+                "rawEndTime": 1574613791195,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T07_Increase_Prod_Qty",
+                "rawStartTime": 1574613791198,
+                "rawEndTime": 1574613808018,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T06_Add_to_Cart",
+                "rawStartTime": 1574613829137,
+                "rawEndTime": 1574613843989,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T07_Increase_Prod_Qty",
+                "rawStartTime": 1574613845322,
+                "rawEndTime": 1574613848803,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T06_Add_to_Cart",
+                "rawStartTime": 1574613849855,
+                "rawEndTime": 1574613853458,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T07_Increase_Prod_Qty",
+                "rawStartTime": 1574613854323,
+                "rawEndTime": 1574613860647,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T08_Click_On_Cart",
+                "rawStartTime": 1574613861256,
+                "rawEndTime": 1574613892472,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T09_Click_On_Checkout",
+                "rawStartTime": 1574613893592,
+                "rawEndTime": 1574613916898,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T10_Select_Delivery",
+                "rawStartTime": 1574613917977,
+                "rawEndTime": 1574613960143,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T11_Select_Checkout_Date",
+                "rawStartTime": 1574613962445,
+                "rawEndTime": 1574614056325,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00014853477478027344
+            },
+            {
+                "transactionName": "S01_PRISM_Peapod_SIT_SignIn_Checkout_T12_Reserve_Slot",
+                "rawStartTime": 1574614564368,
+                "rawEndTime": 1574614566464,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]
