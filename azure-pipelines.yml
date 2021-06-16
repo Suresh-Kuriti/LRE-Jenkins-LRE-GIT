@@ -28,3 +28,5 @@ steps:
     varTestID: '176'
     varTimeslotDuration: '60'
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
+    
+    
