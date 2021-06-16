@@ -1,14 +1,4 @@
 # Starter pipeline
-- task: PerformanceCenterTesting@1
-  inputs:
-    varPCServer: 'https://aholddelhaizelre.retailbusinessservices.com/'
-    varUserName: 'VN06651'
-    varPassWord: 'Welcome123'
-    varDomain: 'RBS_PERFORMANCE'
-    varProject: 'LREDevops'
-    varTestID: '176'
-    varTimeslotDuration: '60'
-    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -27,3 +17,14 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+  
+- task: PerformanceCenterTesting@1
+  inputs:
+    varPCServer: 'https://aholddelhaizelre.retailbusinessservices.com/'
+    varUserName: 'VN06651'
+    varPassWord: 'Welcome123'
+    varDomain: 'RBS_PERFORMANCE'
+    varProject: 'LREDevops'
+    varTestID: '176'
+    varTimeslotDuration: '60'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
